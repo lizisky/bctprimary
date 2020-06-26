@@ -13,8 +13,7 @@ import "fmt"
 // import "os"
 
 func main() {
-	// tryVariables()
-	tryDatatypes()
+	tryVariables()
 }
 
 func tryVariables() {

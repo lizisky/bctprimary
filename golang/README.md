@@ -10,6 +10,8 @@
 | 目录 | 说明 |
 | - | :-: |
 | ch01.helloWorld | Go语言概述一节中的 Hello World 例子 |
-| ch02.variable.datatype | Golang基本语法.变量与数据类型 |
+| ch02.variable | Golang基本语法.变量与常量 |
+| ch03.datatype | Golang基本语法.数据类型 |
+| ch04.controlFlow | Golang基本语法.流程控制 |
 
 

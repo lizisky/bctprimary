@@ -10,6 +10,10 @@ package main
 
 import "fmt"
 
+func main() {
+	tryDatatypes()
+}
+
 func tryDatatypes() {
 	testString()
 	testArray()
