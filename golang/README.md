@@ -15,3 +15,4 @@
 | ch209.controlFlow | Golang基本语法.流程控制 |
 | ch212.func | Golang基本语法.函数 |
 | ch215.struct | Golang基本语法.结构体 |
+| ch217.interface | Golang基本语法.接口 |
