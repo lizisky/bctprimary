@@ -89,6 +89,19 @@ func testSliceGrow() {
 	fmt.Println(mySlice)
 }
 
+// 元素个数与容量
+func lenCap() {
+	var v2 [3][5]int
+	mySlice := make([]int, 5, 10) 
+
+	fmt.Println("length is:", len(v2))
+	fmt.Println("length is:", len(mySlice))
+
+	fmt.Println("length is:", cap(v2))
+	fmt.Println("length is:", cap(mySlice))
+
+}
+
 // map
 func testMap() {
 	// var score map[string]int
@@ -104,4 +117,7 @@ func testMap() {
 
 	delete(score2, "kevin")
 
+	for key, value := range score2 {
+		fmt.Println(key, value)
+	}
 }
