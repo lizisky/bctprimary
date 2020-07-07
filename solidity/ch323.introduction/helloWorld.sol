@@ -6,7 +6,7 @@ location    : https://github.com/lizitime/bctprimary/
 description : 工业和信息化部-区块链应用工程师（初级）培训教程配套源码
 ******************************************************************************/
 
-pragma solidity ^0.4.22;
+pragma solidity ^0.6.0;
 
 contract HelloWorld {
     uint256 number;
