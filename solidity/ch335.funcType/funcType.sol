@@ -54,7 +54,7 @@ contract Register is Owner {
    uint price;
 
    // 使用修饰符 onlyOwner
-   function changePrice(uint _price) public payable costs(_price) {
+   function changePrice(uint _price) public payable onlyOwner {
       price = _price;
    }
 
