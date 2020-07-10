@@ -2,15 +2,17 @@
 file name   : goroutinue.go
 author      : Kevin Zhang
 vendor      : 北京粒子时代科技有限公司(http://lizitime.com)
-location    : https://github.com/lizitime/bctprimary/
+location    : https://github.com/liziblockchain/bctprimary/
 description : 工业和信息化部-区块链应用工程师（初级）培训教程配套源码
 ******************************************************************************/
 
 package main
 
-import "fmt"
-import "time"
-import "sync"
+import (
+	"fmt"
+	"sync"
+	"time"
+)
 
 func main() {
 	// testBasicGoroutine()
@@ -25,14 +27,14 @@ func main() {
 //-----------------------------------------------------------------------------
 // goroutinue的基本实现方法
 func Add(x, y int) {
-    z := x + y
-    fmt.Println(z)
+	z := x + y
+	fmt.Println(z)
 }
 
 func testBasicGoroutine() {
 	for i := 0; i < 10; i++ {
 		go Add(i, i)
-	} 
+	}
 }
 
 //-----------------------------------------------------------------------------
@@ -51,7 +53,7 @@ func tryChannel() {
 		chs[i] = make(chan int)
 		go add(i, chs[i])
 	}
-	for _, ch := range(chs) {
+	for _, ch := range chs {
 		<-ch
 	}
 }
@@ -79,19 +81,18 @@ func tryTimeout() {
 	}
 }
 
-
 //-----------------------------------------------------------------------------
-// 单向channel 
+// 单向channel
 func raise(ch chan<- int) {
-	ch<- 10
+	ch <- 10
 }
 
 func parse(ch <-chan int) {
 	value := <-ch
 	fmt.Println("get value", value)
-} 
+}
 
-func trySingleDirectChannel(){
+func trySingleDirectChannel() {
 	var ch1 chan int // ch1是一个正常的channel，不是单向的
 	ch1 = make(chan int)
 	go raise(ch1)
@@ -114,58 +115,55 @@ func tryMutex() {
 // RWMutex
 func tryRWMutex() {
 	var id int = 0
-    var mu *sync.RWMutex = new(sync.RWMutex)
+	var mu *sync.RWMutex = new(sync.RWMutex)
 
 	read := func() {
 		mu.RLock()
 		defer mu.RUnlock()
 		println("reading", id)
-		time.Sleep(1*time.Second)
+		time.Sleep(1 * time.Second)
 	}
 
-	write := func(){
+	write := func() {
 		mu.Lock()
 		defer mu.Unlock()
 		id++
 		println("writing", id)
-		time.Sleep(1*time.Second)
+		time.Sleep(1 * time.Second)
 	}
 	// 写的时候啥也不能干
-    go read()
-    go write()
-    go read()
+	go read()
+	go write()
+	go read()
 
-    time.Sleep(3*time.Second)
+	time.Sleep(3 * time.Second)
 }
 
 //-----------------------------------------------------------------------------
-//全局唯一性操作 
+//全局唯一性操作
 var a string
 var once sync.Once
 
 func setup() {
-    a = "hello, world\n"
+	a = "hello, world\n"
 }
 func doprint() {
-    once.Do(setup)
-    print(a)
+	once.Do(setup)
+	print(a)
 }
 func twoprint() {
-    go doprint()
-    go doprint()
-} 
+	go doprint()
+	go doprint()
+}
 
 //-----------------------------------------------------------------------------
-// 
-
-
-//-----------------------------------------------------------------------------
-// 
-
+//
 
 //-----------------------------------------------------------------------------
-// 
-
+//
 
 //-----------------------------------------------------------------------------
-// 
+//
+
+//-----------------------------------------------------------------------------
+//

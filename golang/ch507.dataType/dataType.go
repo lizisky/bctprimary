@@ -2,7 +2,7 @@
 file name   : dataType.go
 author      : Kevin Zhang
 vendor      : 北京粒子时代科技有限公司(http://lizitime.com)
-location    : https://github.com/lizitime/bctprimary/
+location    : https://github.com/liziblockchain/bctprimary/
 description : 工业和信息化部-区块链应用工程师（初级）培训教程配套源码
 ******************************************************************************/
 
@@ -92,7 +92,7 @@ func testSliceGrow() {
 // 元素个数与容量
 func lenCap() {
 	var v2 [3][5]int
-	mySlice := make([]int, 5, 10) 
+	mySlice := make([]int, 5, 10)
 
 	fmt.Println("length is:", len(v2))
 	fmt.Println("length is:", len(mySlice))
