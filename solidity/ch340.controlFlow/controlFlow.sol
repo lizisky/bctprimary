@@ -100,7 +100,7 @@ contract TestContinue {
       uint i = 1;
       uint result = 0;
       for (i = 0; i < 10; i++) {
-          if (i > 5) continue;
+          if (i == 5) continue;
           result += i;
       }
       return (result);
