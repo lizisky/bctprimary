@@ -1,6 +1,6 @@
 # Golang教程源代码
 
-### 目录说明：
+### 目录结构
 
 | 目录 | 说明 |
 | - | :-: |
@@ -14,6 +14,13 @@
 | ch520.goroutinues | 并发编程 |
 | ch523.net | 网络编程 |
 | ch526.error | 错误处理 |
+
+
+| [ch751.setupEnvironment](./ch751.setupEnvironment) |  |
+| [ch755.vote](./ch755.vote) |  |
+| [ch760.auction](./ch760.auction) |  |
+| [ch765.purchase](./ch765.purchase) |  |
+| [ch770.prove](./ch770.prove) |  |
 
 
 
