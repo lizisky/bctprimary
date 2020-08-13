@@ -11,6 +11,7 @@
 | [solidity](./solidity/)  |  Solidity语言教程源代码 |
 | [golang](./golang/)  |  Go语言教程源代码 |
 | [exercise](./exercise/)  |  实训部分源代码 |
+| [exercise.md](./exercise/exercise.md)  | 实训部分练习内容 |
 
 
 ![](./imgs/liziblockchain_wechat.jpg)

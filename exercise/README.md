@@ -9,6 +9,7 @@
 | [ch760.auction](./ch760.auction) | 卖合约开发 |
 | [ch765.purchase](./ch765.purchase) | 购物合约开发 |
 | [ch770.prove](./ch770.prove) | 存证合约开发 |
+| [exercise.md](./exercise.md)  | 实训部分练习内容 |
 
 
 
