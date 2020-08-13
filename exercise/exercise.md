@@ -11,25 +11,25 @@
 * geth命令行参数
   - 链接到以太坊主网（不附带任何参数）
   - 以开发模式启动
-  - 启动 HTTP-RPC 服务
-  - 启动 Web Socker 服务
+  - 启用 HTTP-RPC 服务
+  - 启用 Web Socker 服务
   - 启动交互式的JavaScript控制台窗口（命令行）
   - 使用默认的数据存储目录，以及查看存储路径
   - 指定数据存储目录
 
 
 * 基本的账户操作
- - 查看账户列表
- - 创建新账户
- - 获取某一个特定的账户
- - 锁定/解锁一个指定的账户
- - 查看账户数据文件
- - 备份账户数据文件
+  - 查看账户列表
+  - 创建新账户
+  - 获取某一个特定的账户
+  - 锁定/解锁一个指定的账户
+  - 查看账户数据文件
+  - 备份账户数据文件
 
 
- * 转账
-  - 转账操作
-  - 查询账户余额
+* 转账
+   - 转账操作
+   - 查询账户余额
 
 
 * 区块操作
@@ -42,10 +42,10 @@
 
 
 * 交易操作
- - 产生一个新的交易
- - 查看某一个区块中所有的交易列表
- - 查看某一个指定的交易
- - 交易数据解读
+  - Send一个新的交易
+  - 查看某一个区块中所有的交易列表
+  - 查看某一个指定的交易
+  - 交易数据解读
 
 ***
 
@@ -59,7 +59,7 @@
 * 切换账户
 * 清除账户数据
 * 转账
- - 调整Gas Price和Gas Limit
+  - 调整Gas Price和Gas Limit
 * 查看余额
 * 查看账户交易记录
 
@@ -79,8 +79,9 @@
 * 在geth console上查看调用合约方法的交易
 
 
-## 资源链接：
+
 ***
+## 资源链接：
 
 以太坊开发环境搭建详细步骤：
 https://mp.weixin.qq.com/s/BIp1hzyaDnakCBr7FsAzxg
@@ -105,13 +106,14 @@ https://remix.ethereum.org
 
 MetaMask浏览器插件下载链接（官方）
 https://github.com/MetaMask/metamask-extension/releases
+
 MetaMask浏览器插件下载链接（百度网盘）
 链接:https://pan.baidu.com/s/1kmW-meQCJKjsyK01HT2YAw  密码:hd23
 
 
 
 
-golang官方网站: https://golang.google.cn
+Golang官网中国镜像站: https://golang.google.cn
 
 Visual Studio Code官方网站: https://code.visualstudio.com/
 
