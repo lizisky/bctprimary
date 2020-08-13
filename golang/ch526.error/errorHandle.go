@@ -15,16 +15,16 @@ func main() {
 }
 
 // 产生异常的原因
-func productException() {
+func produceException() {
 
 	var pint *int
 	*pint = 1
 
 	var intary [5]int
-	intary[5] = 1
+	intary[5] = 1 // 数组越界溢出错误
 
 	var age int = 18
-	fmt.Println(age / 0)
+	fmt.Println(age / 0) // 除0错
 
 	panic(0)
 }

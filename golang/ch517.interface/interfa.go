@@ -14,8 +14,8 @@ import (
 )
 
 func main() {
-	testSquare()
-	testTypeValidation()
+	// testSquare()
+	// testTypeValidation()
 	testSwitchType()
 }
 
@@ -62,7 +62,7 @@ type Circle struct {
 
 func testTypeValidation() {
 	sq1 := new(Square2)
-	sq1.side = 5
+	sq1.side = 5.0
 
 	var areaIntf Shaper2
 	areaIntf = sq1
@@ -81,16 +81,18 @@ func testTypeValidation() {
 func testSwitchType() {
 
 	sq1 := new(Square2)
-	sq1.side = 5
+	sq1.side = 5.0
 
 	var areaIntf Shaper2
 	areaIntf = sq1
 
+	// fmt.Printf("Unexpected type", areaIntf.Area())
+
 	switch t := areaIntf.(type) {
 	case *Square:
 		fmt.Printf("Type Square %T with value %v\n", t, t)
-	// case *Circle:
-	// 	fmt.Printf("Type Circle %T with value %v\n", t, t)
+	case *Square2:
+		fmt.Printf("Type Square %T with value %v\n", t, t)
 	case nil:
 		fmt.Printf("nil value: nothing to check?\n")
 	default:
@@ -176,11 +178,11 @@ type IWriter interface {
 }
 
 type ReadWriter interface {
-	Reader
-	Writer
+	IReader
+	IWriter
 }
 
-type ReadWriter interface {
-	Read(p []byte) (n int, err error)
-	Write(p []byte) (n int, err error)
-}
+// type ReadWriter interface {
+// 	Read(p []byte) (n int, err error)
+// 	Write(p []byte) (n int, err error)
+// }
