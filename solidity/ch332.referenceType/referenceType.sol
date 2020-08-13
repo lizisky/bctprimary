@@ -13,7 +13,7 @@ pragma solidity ^0.6.0;
 contract DeclareArray {
   // type[arraySize] arrayName ;
 
-  uint balance[10];
+  uint[10] balance;
 }
 
 // Init Array
@@ -29,7 +29,7 @@ contract InitArray {
 
 // 创建内存数组
 contract MemoryAry {
-    function f(uint len) {
+    function fn(uint len) pure public {
         uint[] memory a = new uint[](7);
         bytes memory b = new bytes(len);
         // a.length == 7, b.length == len

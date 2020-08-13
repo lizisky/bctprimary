@@ -11,7 +11,7 @@ pragma solidity ^0.6.0;
 
 // function sample
 contract BasicSample {
-   function getResult() public view returns(uint){
+   function getResult() public pure returns(uint){
       uint a = 1; // 局部变量
       uint b = 2;
       uint result = a + b;

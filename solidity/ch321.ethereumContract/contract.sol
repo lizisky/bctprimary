@@ -82,11 +82,11 @@ contract Test is Calculator {
 }
 
 // 接口
-interface Calculator {
+interface CalculatorInterface {
    function getResult() external view returns(uint);
 }
 
-contract Test is Calculator {
+contract TestInterface is CalculatorInterface {
    constructor() public {}
    function getResult() external view override returns(uint){
       uint a = 1;

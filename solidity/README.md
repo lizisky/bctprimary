@@ -1,20 +1,22 @@
-# Golang教程源代码
+# Solidity教程源代码
 
 ### 目录说明：
 
+
 | 目录 | 说明 |
 | - | :-: |
-| ch500.helloWorld | Go语言概述一节中的 Hello World 例子 |
-| ch505.variable | Golang基本语法.变量与常量 |
-| ch507.datatype | Golang基本语法.数据类型 |
-| ch509.controlFlow | Golang基本语法.流程控制 |
-| ch512.func | Golang基本语法.函数 |
-| ch515.struct | Golang基本语法.结构体 |
-| ch517.interface | Golang基本语法.接口 |
-| ch520.goroutinues | 并发编程 |
-| ch523.net | 网络编程 |
-| ch526.error | 错误处理 |
+| [ch321.ethereumContract](./ch321.ethereumContract) | Ethereum智能合约详解 |
+| [ch323.introduction](./ch323.introduction) | Solidity编程语言简介 |
+| [ch326.Structure](./ch326.Structure) | Solidity源文件结构 |
+| [ch330.basicDataType](./ch330.basicDataType) | 基础数据类型 |
+| [ch332.referenceType](./ch332.referenceType) | 引用数据类型 |
+| [ch335.funcType](./ch335.funcType) | 函数类型 |
+| [ch337.storeAndAssign](./ch337.storeAndAssign) | 数据存储位置 |
+| [ch340.controlFlow](./ch340.controlFlow) | 流程控制 |
 
 
 
-北京粒子时代科技有限公司
+![](../imgs/liziblockchain_wechat.jpg)
+
+
+Developed by 粒子区块链(liziblockchain.com)

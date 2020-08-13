@@ -10,6 +10,8 @@
 - [golang](./golang/) ---> Go语言教程源代码
 - [exercise](./exercise/) ---> 实训部分源代码
 
-by 粒子区块链(liziblockchain.com)
 
 ![](./imgs/liziblockchain_wechat.jpg)
+
+
+Developed by 粒子区块链(liziblockchain.com)

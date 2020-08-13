@@ -18,8 +18,8 @@ contract DataLocationStateVariable {
 
 // 不能显式地标记状态变量的位置。
 contract DataLocationWrong {
-   uint storage stateVariable; // 错误
-   uint[] memory stateArray; // 错误  
+//   uint storage stateVariable; // 错误
+//   uint[] memory stateArray; // 错误  
 }
 
 // 函数参数
@@ -42,7 +42,7 @@ contract DataLocationsLocalVar {
   uint number;  
   address account;  
 
-  function doSomething() public  {  
+  function doSomething() public pure {  
     /* 函数内部都是局部变量  */  
     // 值类型
     // 所以它们被存储在内存中
