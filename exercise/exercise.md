@@ -86,6 +86,9 @@
 以太坊开发环境搭建详细步骤：
 https://mp.weixin.qq.com/s/BIp1hzyaDnakCBr7FsAzxg
 
+使用命令行参数来控制以太坊的不同运行模式
+https://mp.weixin.qq.com/s/kOlpEVhMKbwEExCSG5x0ug
+
 以太坊钱包MetaMask使用指南
 https://mp.weixin.qq.com/s/iFH6-To49M0f93HYykYstg
 
