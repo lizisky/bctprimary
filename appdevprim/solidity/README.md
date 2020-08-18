@@ -16,7 +16,8 @@
 
 
 
-![](../imgs/liziblockchain_wechat.jpg)
+***
+![](../../imgs/liziblockchain_wechat.jpg)
 
 
 Developed by 粒子区块链(liziblockchain.com)
