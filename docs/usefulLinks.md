@@ -15,6 +15,13 @@ https://mp.weixin.qq.com/s/iFH6-To49M0f93HYykYstg
 https://mp.weixin.qq.com/s/7uvE2eXsG7KuoEXMYlcjew
 
 
+## Google Chrome 浏览器下载地址
+
+Chrome下载地址（官方）：
+https://www.google.cn/chrome/
+
+Chrome下载地址（百度网盘）：
+链接: https://pan.baidu.com/s/1JfniAT0wwSmNSeh16KrPUA  密码: vks1
 
 ## 以太坊相关开发工具下载地址
 
