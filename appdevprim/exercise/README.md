@@ -1,4 +1,4 @@
-# 实训部分源代码
+# 区块链应用开发工程师(初级)-实训练习源代码
 
 
 ### 必修课部分练习内容
@@ -137,6 +137,7 @@ Visual Studio Code官方网站: https://code.visualstudio.com/
 | [ch765.purchase](./ch765.purchase) | 购物合约开发 |
 | [ch770.prove](./ch770.prove) | 存证合约开发 |
 | [exercise.md](./exercise.md)  | 实训部分练习内容 |
+
 
 
 ***
