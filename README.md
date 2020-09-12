@@ -13,7 +13,7 @@
 
 
 ***
-### 区块链应用工程师（初级）课程-配套源码
+### 区块链应用开发工程师（初级）课程-配套源码
 
 [设科互联网学院-课程信息 http://www.bjjlsk.com/h/pxgg/2020-08-19/3946.html](http://www.bjjlsk.com/h/pxgg/2020-08-19/3946.html)
 
@@ -25,6 +25,11 @@
 
 
 ***
+### 区块链金融行业工程师（初级）课程-配套源码
+
+
+
+***
 ### 相关资源链接
 
 [区块链相关资源链接 ./docs/usefulLinks.md ](./docs/usefulLinks.md)
@@ -33,7 +38,7 @@
 ***
 附件：
 
-[区块链产业人才岗位能力要求](./docs/)
+[区块链产业人才岗位能力要求](https://pj.miitec.cn/evaluate/system/BlockchainAbilityStandard)
 
 
 ***
