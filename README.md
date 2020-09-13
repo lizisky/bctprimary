@@ -27,13 +27,15 @@
 ***
 ### 区块链金融行业工程师（初级）课程-配套源码
 
+| 目录 | 说明 |
+| - | :-: |
+| [exercise](./financeprim/exercise/)  |  实训部分练习内容以及配套源代码 |
 
 
 ***
 ### 相关资源链接
 
 [区块链相关资源链接 ./docs/usefulLinks.md ](./docs/usefulLinks.md)
-
 
 
 [工信部人才交流中心-区块链产业人才岗位能力要求](https://pj.miitec.cn/evaluate/system/BlockchainAbilityStandard)
