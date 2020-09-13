@@ -3,7 +3,7 @@ file name   : controlFlow.sol
 author      : Kevin Zhang
 vendor      : 北京粒子时代科技有限公司(http://liziblockchain.com)
 location    : https://github.com/liziblockchain/bctprimary/
-description : 工业和信息化部-区块链应用工程师（初级）培训教程配套源码
+description : 工业和信息化部-区块链基础理论课程（初级）培训教程配套源码
 ******************************************************************************/
 // SPDX-License-Identifier: GPLv3
 
@@ -15,11 +15,11 @@ contract TestIfElse {
    uint storedData; // State variable
 
    constructor() public {
-      storedData = 10;   
+      storedData = 10;
    }
 
    function getResult() public pure returns(uint) {
-      uint a = 1; 
+      uint a = 1;
       uint b = 2;
       uint c = 3;
       uint result;
@@ -30,26 +30,26 @@ contract TestIfElse {
          result = b;
       } else {
          result = c;
-      }       
-      return (result); 
+      }
+      return (result);
    }
 }
 
 
 
-// while 
+// while
 contract TestWhile {
 
    function getResult() public pure returns(uint) {
-      uint i = 1; 
+      uint i = 1;
       uint result;
-      
+
       while (i < 10) {
           result += i;
           i++;
       }
 
-      return (result); 
+      return (result);
    }
 }
 
@@ -57,15 +57,15 @@ contract TestWhile {
 contract TestDoWhile {
 
    function getResult() public pure returns(uint) {
-      uint i = 1; 
+      uint i = 1;
       uint result;
-      
+
       do {
           result += i;
           i++;
       } while (i < 10);
 
-      return (result); 
+      return (result);
    }
 }
 

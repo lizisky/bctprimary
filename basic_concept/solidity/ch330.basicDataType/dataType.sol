@@ -3,7 +3,7 @@ file name   : dataType.sol
 author      : Kevin Zhang
 vendor      : 北京粒子时代科技有限公司(http://liziblockchain.com)
 location    : https://github.com/liziblockchain/bctprimary/
-description : 工业和信息化部-区块链应用工程师（初级）培训教程配套源码
+description : 工业和信息化部-区块链基础理论课程（初级）培训教程配套源码
 ******************************************************************************/
 // SPDX-License-Identifier: GPLv3
 
@@ -34,7 +34,7 @@ contract testBool {
 
     function get() public view returns (bool) {
         return v2;
-    }    
+    }
 }
 
 // 整数类型
@@ -101,7 +101,7 @@ contract DconTest {
 
 // 定长字节数组
 contract TestFixBytes{
-    // 一个字节 八位 固定大小数组内容和长度都不可修改 
+    // 一个字节 八位 固定大小数组内容和长度都不可修改
     bytes11 a = "6c111122ab9";//
     bytes1 b = 0x69;//105
     function test1() public view returns(bool){
@@ -119,7 +119,7 @@ contract TestFixBytes{
     function test5() public view returns(bool){
          return a > b;
      }
-    // 索引访问 
+    // 索引访问
     function indeOf() public view returns(byte){
         return a[0];
     }
@@ -151,4 +151,3 @@ contract testEnum {
         return uint(defaultChoice);
     }
 }
-

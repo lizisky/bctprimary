@@ -1,18 +1,11 @@
-# Solidity教程源代码
+# 区块链基础理论课程-配套源码
 
-### 目录结构
+### Solidity教程源代码-目录结构
 
 
 | 目录 | 说明 |
 | - | :-: |
-| [ch321.ethereumContract](./ch321.ethereumContract) | Ethereum智能合约详解 |
-| [ch323.introduction](./ch323.introduction) | Solidity编程语言简介 |
-| [ch326.Structure](./ch326.Structure) | Solidity源文件结构 |
-| [ch330.basicDataType](./ch330.basicDataType) | 基础数据类型 |
-| [ch332.referenceType](./ch332.referenceType) | 引用数据类型 |
-| [ch335.funcType](./ch335.funcType) | 函数类型 |
-| [ch337.storeAndAssign](./ch337.storeAndAssign) | 数据存储位置 |
-| [ch340.controlFlow](./ch340.controlFlow) | 流程控制 |
+| [Solidity](./solidity) | Solidity教程源代码 |
 
 
 

@@ -3,7 +3,7 @@ file name   : funcType.sol
 author      : Kevin Zhang
 vendor      : 北京粒子时代科技有限公司(http://liziblockchain.com)
 location    : https://github.com/liziblockchain/bctprimary/
-description : 工业和信息化部-区块链应用工程师（初级）培训教程配套源码
+description : 工业和信息化部-区块链基础理论课程（初级）培训教程配套源码
 ******************************************************************************/
 // SPDX-License-Identifier: GPLv3
 
@@ -79,16 +79,16 @@ contract TestView {
 // Pure(纯)函数
 contract TestPure {
    function getResult() public pure returns(uint sum) {
-      uint a = 1; 
+      uint a = 1;
       uint b = 2;
-      sum = a + b; 
+      sum = a + b;
    }
 }
 
 // fallback(回退)函数
 contract Test {
    uint public x ;
-   fallback() external { x = 1; }    
+   fallback() external { x = 1; }
 }
 
 contract Sink {
@@ -118,10 +118,10 @@ contract Caller {
 
 // 函数重载
 contract TestOverride {
-   function getSum(uint a, uint b) public pure returns(uint){      
+   function getSum(uint a, uint b) public pure returns(uint){
       return a + b;
    }
-   function getSum(uint a, uint b, uint c) public pure returns(uint){      
+   function getSum(uint a, uint b, uint c) public pure returns(uint){
       return a + b + c;
    }
    function callSumWithTwoArguments() public pure returns(uint){
@@ -133,7 +133,7 @@ contract TestOverride {
 }
 
 // 数学函数
-contract TestMath {   
+contract TestMath {
    function callAddMod() public pure returns(uint){
       return addmod(4, 5, 3);
    }
@@ -143,8 +143,8 @@ contract TestMath {
 }
 
 // 加密函数
-contract TestCrypto {   
+contract TestCrypto {
    function callKeccak256() public pure returns(bytes32 result){
       return keccak256("ABC");
-   }  
+   }
 }

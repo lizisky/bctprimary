@@ -35,10 +35,8 @@
 [区块链相关资源链接 ./docs/usefulLinks.md ](./docs/usefulLinks.md)
 
 
-***
-附件：
 
-[区块链产业人才岗位能力要求](https://pj.miitec.cn/evaluate/system/BlockchainAbilityStandard)
+[工信部人才交流中心-区块链产业人才岗位能力要求](https://pj.miitec.cn/evaluate/system/BlockchainAbilityStandard)
 
 
 ***
