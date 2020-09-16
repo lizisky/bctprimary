@@ -55,6 +55,6 @@ Visual Studio Code官方网站: https://code.visualstudio.com/
 ![](../imgs/liziblockchain_wechat.jpg)
 
 
-Developed by 粒子区块链(liziblockchain.com)
+Developed by 粒子区块链(http://liziblockchain.com)
 
 微信公众号：粒子区块链
