@@ -11,14 +11,8 @@ pragma solidity >=0.6.0 <0.7.0;
 
 contract Lending {
 
-    // address owner;
     // 抵押的gold与借款的dollar之间的比例
     uint256 ratio;
-
-    // // 借款人
-    // struct Borrower {
-    //     uint256 amount;
-    // }
 
     // 债权人
     struct Loaner {
@@ -28,7 +22,6 @@ contract Lending {
 
     // 一笔抵押借贷账目
     struct Debt {
-        //address borrower; // 借款人
         address loaner;   // 债权人
         uint256 gold;     // 抵押的黄金数量(克)
         uint256 dollar;   // 借出的美元数量
@@ -39,22 +32,18 @@ contract Lending {
     mapping(address => Debt) debtMap;
     // 债权人的dollar借给谁了, key=债权人   value=借款人
     mapping(address => address) loanBorrowerMap;
-    // 放贷人的放贷数额。key=放贷人地址   value=放贷总数
-    // mapping(address => uint256) loanMap;
     // 保存债权人以及可以借出的dollar总数的数组
     Loaner[] loanerAry;
 
+    // 构造函数
     constructor() public {
-        // owner = msg.sender;
         ratio = 10;
     }
 
     // 放贷的人，设置自己的放贷数额
     function setLoanAmount(uint256 loan) public {
         require(loan > 0, "放贷数量必须大于0");
-//        require(loanMap[msg.sender] == 0, "你已经设置过放贷的数量了");
 
-        // loanMap[msg.sender] = loan;
         for (uint i = 0; i < loanerAry.length; i++) {
             if (loanerAry[i].loaner == msg.sender) {
                 require(loanerAry[i].loaner != msg.sender, "你已经设置过放贷的数量了");
@@ -67,7 +56,6 @@ contract Lending {
 
     // 辅助方法，查看自己的放贷数额
     function getLoanAmount() public view returns(uint256) {
-        // return loanMap[msg.sender];
         for (uint i = 0; i < loanerAry.length; i++) {
             if (loanerAry[i].loaner == msg.sender) {
                 return loanerAry[i].amount;
