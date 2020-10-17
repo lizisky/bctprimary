@@ -33,6 +33,15 @@
 | [exercise](./financeprim/exercise/)  |  实训部分练习内容以及配套源代码 |
 
 
+
+***
+### 区块链行业产品经理（初级）课程-配套源码
+
+| 目录 | 说明 |
+| - | :-: |
+| [exercise](./productMgrPrim/exercise/)  |  实训部分练习内容以及配套源代码 |
+
+
 ***
 ### 相关资源链接
 
